@@ -23,5 +23,14 @@
 # favorite_number = gets.chomp
 # puts "May I suggest a bigger and better new favorite number, such as #{favorite_number.to_i + 1}?"
 
-# puts 'The methods we have seen so far include 1: "puts", 2: "gets", 3: c"homp", 4: "to_i", 5: "to_s", 6: "to_f", 7: "+", 8: "-", 9: "*", and 10: "/"'
+# puts 'The methods we have seen so far include 1: "puts", 2: "gets", 3: "chomp", 4: "to_i", 5: "to_s", 6: "to_f", 7: "+", 8: "-", 9: "*", and 10: "/"'
 
+# puts 'What is your first name?'
+# first_name = gets.chomp
+# puts 'What is your middle name?'
+# middle_name = gets.chomp
+# puts 'What is your last name?'
+# last_name = gets.chomp
+# full_name = "#{first_name} #{middle_name} #{last_name}"
+# full_name_length = first_name.length + middle_name.length + last_name.length
+# puts "Did you know there are #{full_name_length.to_s} characters in your name, #{full_name}?"

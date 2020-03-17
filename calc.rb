@@ -34,3 +34,16 @@
 # full_name = "#{first_name} #{middle_name} #{last_name}"
 # full_name_length = first_name.length + middle_name.length + last_name.length
 # puts "Did you know there are #{full_name_length.to_s} characters in your name, #{full_name}?"
+
+# puts "What do you want?!"
+# your_answer = gets.chomp
+# puts "WHADDAYA MEAN \"#{your_answer.upcase}\"?! YOU'RE FIRED!!"
+
+# lineWidth = 50
+# puts ""
+# puts "Table of Contents".center lineWidth
+# puts ""
+# puts "Chapter 1: Numbers".ljust(lineWidth/2) + "Page 1".rjust(lineWidth/2)
+# puts "Chapter 2: Letters".ljust(lineWidth/2) + "Page 72".rjust(lineWidth/2)
+# puts "Chapter 3: Variables".ljust(lineWidth/2) + "Page 118".rjust(lineWidth/2)
+# puts ""
